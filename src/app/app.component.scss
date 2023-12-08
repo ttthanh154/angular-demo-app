@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #C2185B;
+    z-index: 10;
+    box-shadow: 0 2px 5px #0000004d;
+}
+
+footer {
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #C2185B;
+    z-index: 10;
+    box-shadow: 0 2px 5px #0000004d;
+}
+
+main {
+    flex: 1 0 auto;
+    padding: 25px;
+}

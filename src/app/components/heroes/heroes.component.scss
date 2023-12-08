@@ -1,0 +1,79 @@
+.heroes__content {
+    background-color: #F2F2F0;
+    box-shadow: 0 2px 5px #0000004d;
+    padding: 5px;
+    gap: 20px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+
+    .heroes {
+        .delete {
+            margin-left: 10px;
+            background-color: red;
+            color: #FFFFFF;
+            width: 50px;
+            height: 25px;
+            border: 1px solid #ffffffbb;
+            box-shadow: 0 2px 5px #0000004d;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        li {
+            list-style-type: none;
+
+        }
+        border: 1px solid #ffffffbb;
+
+        button {
+            background-color: #FFFFFF;
+            box-shadow: 0 2px 5px #0000004d;
+            padding: 0px;
+            margin: 0;
+            border-radius: 5px;
+            margin: 5px 0;
+
+            .hero__button {
+                display: flex;
+                justify-content: start;
+                min-width: 150px;
+
+                .badge {
+                    padding: 5px;
+                }
+
+                .name {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.selected {
+    border: 1px solid #000000;
+
+    .badge {
+        background-color: #405061;
+        color: #FFFFFF;
+        padding: 5px;
+    }
+
+    .name {
+        background-color: #000000;
+        color: #FFFFFF;
+        width: 100%;
+    }
+}
+
+.hero-detail{
+    color: #000000;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ffffffbb;
+    box-shadow: 0 2px 5px #0000004d;
+}
