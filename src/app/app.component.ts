@@ -2,7 +2,7 @@ import { TSectionNav } from './types/app.type';
 import { MessagesComponent } from './components/messages/messages.component';
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterModule, RouterOutlet } from '@angular/router';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import {HttpClientModule } from '@angular/common/http';
 
